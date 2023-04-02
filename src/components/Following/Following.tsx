@@ -16,7 +16,7 @@ export const Following : React.FC <Repositoresprops>= ({
     <Container onClick={()=>findUser(login)}>
         <div>
           <ImageProfile src={avatar} />
-          <p>{login}</p>
+          <h3>{login}</h3>
         </div>
     </Container>
   );

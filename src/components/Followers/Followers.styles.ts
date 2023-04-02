@@ -9,7 +9,7 @@ export const Container = styled("div")({
     display:"flex",
     alignItems:"center",
     flexDirection:"row",
-    p:{
+    h3:{
       marginLeft:"15px",
       color:"#5F30E6",
       fontSize:"16px",

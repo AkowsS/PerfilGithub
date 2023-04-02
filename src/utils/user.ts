@@ -7,6 +7,7 @@ export type Userprops = {
   following: number;
   bio: string;
   public_repos: string;
+  html_url: string;
 };
 
 export type Repositoreprops = {

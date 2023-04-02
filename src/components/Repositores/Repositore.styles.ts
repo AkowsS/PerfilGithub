@@ -28,7 +28,7 @@ export const Container = styled("div")({
 export const LanguageAndUpdate = styled("div")({
   display: "flex",
   flexDirection: "row",
-  span: {
+  p: {
     margin:"5px 0 0 15px",
     color: "#1D2227",
     fontWeigh: 400,
@@ -37,14 +37,15 @@ export const LanguageAndUpdate = styled("div")({
   },
 });
 
-export const NameRepo = styled("p")({
-  color: "#5F30E5",
+export const NameRepo = styled("h3")({
+  margin:"0 15px",
   fontSize: "24px",
   fontWeight: 400,
   lineHeight: "32px",
 });
 
-export const DescriptionRepostyled = styled("p")({
+export const DescriptionRepostyled = styled("h4")({
+  margin:"0 15px",
   color: "#1D2227",
   fontWeight: 400,
   fontSize: "16px",

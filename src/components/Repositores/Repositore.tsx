@@ -22,8 +22,8 @@ export const Repositore : React.FC <Repositoresprops>= ({
         <Link href={html_url} target="_blank"><NameRepo>{name}</NameRepo></Link>
           <DescriptionRepostyled>{description?description:"None"}</DescriptionRepostyled>
           <LanguageAndUpdate>
-            <span>{language?language:"None"}</span>
-            <span>{updated_at}</span>
+            <p>{language?language:"None"}</p>
+            <p>{updated_at}</p>
           </LanguageAndUpdate>
       
     </Container>
