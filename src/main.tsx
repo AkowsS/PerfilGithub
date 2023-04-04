@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {App} from './App'
-import {createBrowserRouter, RouterProvider} from "react-router-dom"
+import {createBrowserRouter} from "react-router-dom"
 import { HomePage } from './pages'
 
 const router = createBrowserRouter([{
@@ -13,11 +13,10 @@ const router = createBrowserRouter([{
       element:<HomePage/>
     }
   ]
-  
 }])
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <App />
+      <App />
   </React.StrictMode>,
 )

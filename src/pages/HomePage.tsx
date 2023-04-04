@@ -123,7 +123,7 @@ export const HomePage : React.FC = () => {
               <BioProfile>{user?.bio}</BioProfile>
             </ProfileInformations>
           </div>
-          <DivFollows className={themeButton?"darkThemeElement":{}}>
+          <DivFollows className={themeButton?"darkThemeElement":""}>
             <DivOptions style={user?.name?{display:"block",padding:"15px 10px"}:{display:"none"}} >
               <ButtonsOptions onClick={()=>onSelectOption(1)} style={option===1?{backgroundColor:`${selectColor}`}:{}}><p>Repositórios</p><span>{user?.public_repos}</span></ButtonsOptions>
               <ButtonsOptions onClick={()=>onSelectOption(2)} style={option===2?{backgroundColor:`${selectColor}`}:{}}><p>Seguidores</p><span>{user?.followers}</span></ButtonsOptions>

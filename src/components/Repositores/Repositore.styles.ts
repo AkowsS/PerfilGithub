@@ -8,11 +8,9 @@ export const Container = styled("div")({
   flexDirection: "column",
   display: "flex",
   padding: "13px 0 14px 0",
-  //div:{
   p: {
     margin: "0px 15px",
   },
-  //},
   ":after": {
     display: "block",
     position: "relative",

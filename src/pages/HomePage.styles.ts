@@ -65,14 +65,19 @@ export const Container = styled("div")(({ theme }) =>({
 }));
 
 export const DivMain = styled("div")(({theme}) =>({
+  overflowY: "auto",
   marginTop: "30px",
   display: "flex",
   justifyContent: "space-around",
   width: "100%",
+  height:"100vh", 
   [theme.breakpoints.down(800)]: {
+    justifyContent:"flex-start",
     flexDirection:"column",
-    justifyContent:"center",
     alignItems:"center",
+    "::-webkit-scrollbar": {
+      width: "10px",
+    },
   },
 }));
 
